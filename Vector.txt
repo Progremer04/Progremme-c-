@@ -1,0 +1,108 @@
+							Vector:
+			1- Introduction:
+				A vector is a sequence container in the Standard Template Library (STL) of the
+				 C++ programming language. It is an implementation of a dynamic array, which
+				  means that its size can grow and shrink dynamically at runtime. Unlike 
+				  traditional arrays, vectors automatically allocate and deallocate memory for their elements as needed.
+				  {
+				  The Standard Template Library (STL) is a collection of templates and
+				   algorithms in the C++ programming language. It provides a range of generic 
+				   containers, such as arrays, lists, and maps, as well as algorithms for 
+				   sorting, searching, and transforming elements.
+				  }
+
+				Vectors are easy to use and provide many benefits over traditional arrays. One
+				 of the biggest advantages is the ability to resize the container dynamically.
+				  You can add or remove elements from the end of the vector with a constant
+				   time complexity. The STL also provides a range of algorithms and member functions for working with vectors, making it easy to manipulate the 
+				   elements in the container.
+
+				Another advantage of vectors is that they handle memory management
+				 automatically. The STL implementation of vectors uses a contiguous block of
+				  memory to store its elements, so inserting elements at the end of the
+				   vector is fast and efficient. The vector also automatically expands its 
+				   capacity when more memory is needed, without the need for manual 
+				   allocation.
+
+				Overall, vectors are a convenient and powerful container in C++, and they are
+				 widely used in many applications. Whether you're working on a small project
+				  or a large software system, vectors can simplify your code and make it more
+				   efficient.	
+
+			2- Vector  Methods:
+				addElement()			adds an element into the vector
+				deleteElement()			removes an element from the vector
+				size()				returns the Numbre  of size of vector
+				showArray()				Show  all value of vector	
+				sordArray()				sort vector
+				reverseArray()			reverse vector 	
+
+			3- Vector Features:
+				Here are some of the most notable features of vectors in the Standard Template
+				 Library (STL) of the C++ programming language:
+
+					1-	Dynamic size: Vectors can grow and shrink dynamically at runtime, making
+					 it easy to handle varying amounts of data.
+
+					2-	Element access: Vectors provide fast and convenient access to individual 
+					elements, using an index or an iterator.
+
+					3-	Memory management: Vectors automatically handle memory management for
+					 their elements, allocating and deallocating memory as needed.
+
+					4-		Iterators: Vectors provide a range of iterators for working with their
+					 elements, including forward, reverse, and bidirectional iterators.
+
+					5-	Algorithms: The STL provides a range of algorithms for working with 
+					vectors, including sorting, searching, and transforming elements.
+
+					6-	Member functions: Vectors provide a range of member functions for
+					manipulating their elements, including adding, removing, and accessing elements.
+
+					7-	Capacity: Vectors provide member functions for managing the capacity of 
+					the container, including the ability to reserve space for a specific
+					 number of elements.
+
+					8-	Exception safety: Vectors provide strong exception safety guarantees, 
+					ensuring that the container remains in a valid state even in the presence
+					 of exceptions.
+
+					9-	Performance: Vectors provide fast and efficient performance, with constant
+					 time complexity for many operations, such as adding elements to the end 
+					 of the container.
+
+				These are just a few of the many features of vectors in C++. Whether you're 
+				working on a small project or a large software system, vectors provide a
+				 powerful and flexible solution for storing and manipulating sequences of 
+				 elements.
+			
+			4- Stack Cons:
+				Here are some of the most notable drawbacks of using vectors in the Standard 
+				Template Library (STL) of the C++ programming language:
+
+					1-	Memory overhead: Vectors allocate memory dynamically, which means that
+					 there is a memory overhead compared to traditional arrays.
+
+					2-	Slow insertion and deletion: Inserting or deleting elements in the 
+					middle of the vector can be slow, as it requires shifting the elements and
+					 reallocating memory.
+
+					3-	Size limitations: Vectors have size limitations, as they can only 
+					store a finite number of elements before running out of memory.
+
+					4-	Cache misses: Vectors store their elements in a contiguous block of 
+					memory, which can lead to cache misses if you access elements randomly.
+
+					5-	Complexity: Vectors can be more complex to use than traditional 
+					arrays, as they provide a range of member functions and algorithms for
+					 manipulating their elements.
+
+					6-	Dependence on the STL: Vectors depend on the Standard Template Library  (STL), so if you want to use them, you need to be familiar with the STL and its implementation.
+
+					7-	Portability: Vectors are part of the C++ Standard Template Library
+					(STL), so they are not available in other programming languages.
+
+				These are just a few of the most notable drawbacks of using vectors in C++. It
+				 is important to weigh the pros and cons of vectors carefully, and to choose
+				  the container that best fits your needs based on the requirements of your 
+				  project.

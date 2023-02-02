@@ -1,0 +1,89 @@
+							Binary Search Tree:
+			1- Introduction:
+				A binary search tree (BST) is a type of data structure that allows for efficient insertion, deletion, and search operations. BSTs are based on the binary tree data structure, which is a 
+				tree-based data structure in which each node can have at most two children, which are referred to as the left and right child. Each node in a BST stores a value, and the value of the left 
+				child is less than its parent, and the value of the right child is greater than its parent. This property allows for efficient search operations as the search can be narrowed down to a
+				specific subtree based on the value being searched for. BSTs are commonly used in computer science for tasks such as sorting, searching, and implementing dynamic data structures.		
+			2- Stack Methods:
+				inserttree()			adds an element into the bst
+				deleteNode()			removes an element from the bst
+				tree heigth()			returns the Numbre  of heigth of bst
+				prefixe()				Show  prefixe of bst	
+				infixe()				Show  infixe of bst
+				posfixe()				Show  posfixe of bst 	
+
+			3- Stack Features:
+				Here are some common features of a binary search tree (BST) data structure:
+
+					1-	Efficient search: BSTs allow for efficient search operations as the search can be narrowed down to a specific subtree based on the value being searched for.
+
+					2-	Efficient insertion and deletion: Elements can be efficiently inserted or deleted from a BST, as only the relevant parts of the tree need to be updated.
+
+					3-	Self-balancing: Some implementations of BSTs, such as AVL trees and Red-black trees, are self-balancing, which means that they automatically adjust their structure to maintain 
+					balanced heights and ensure efficient search operations.
+
+					4-	In-order traversal: BSTs can be easily traversed in-order (left-root-right) which produces the elements in ascending order, making it useful for sorting.
+
+					5-	Flexible size: BSTs do not have a fixed size and the size of the tree can change as elements are added or removed.
+
+					6-	Memory efficient: BSTs are memory efficient as they only store what's necessary, unlike arrays and linked lists which also store null or empty spaces.
+
+					7-	Applications: BSTs are used in a wide range of applications, including sorting, searching, and implementing dynamic data structures, and more.
+
+					8-	BST can be used in a wide range of applications like searching for values in a large dataset, maintaining a dictionary and more.
+
+					9-	Can be used to implement other data structures like Heaps
+					{ explain Heaps Data structer:
+					
+					A heap is a specialized tree-based data structure that satisfies the heap property, which states that the value of each node is greater than or equal to its children's values (in a 
+					max-heap) or less than or equal to its children's values (in a min-heap). The two main types of heaps are max-heaps and min-heaps.
+
+					In a max-heap, the root node has the largest value, and in a min-heap, the root node has the smallest value.
+
+					Heaps are commonly used in computer science for tasks such as implementing priority queues, sorting algorithms, and graph traversal algorithms. Heaps are also used in memory 
+					management to efficiently allocate and deallocate memory.
+
+					Heaps can be implemented using an array or a tree. In a complete binary tree implementation, where each node has 2 children except leaf nodes, and all levels are fully filled except 
+					possibly the last level and the last level is filled from left to right.
+
+					Heaps have some important properties:
+
+						1-	All levels are fully filled except possibly the last level.
+						2-	The last level is filled from left to right
+						3-	The value of the parent node is greater than or equal to its children's values (in a max-heap) or less than or equal to its children's values (in a min-heap).
+					Heaps are efficient in extracting the maximum/minimum element and inserting new element.
+
+					Applications of Heaps:
+
+						1-Heap Sort: Heap sort is a comparison-based sorting algorithm that uses a heap data structure.
+						2-Priority Queues: Heaps are used to implement priority queues where an element with the highest priority is always at the root.
+						3-Graph Algorithms: Heaps are used in graph traversal algorithms like Dijkstra's shortest path algorithm.
+						4-Memory Management: Heaps are used in memory management to efficiently allocate and deallocate memory.
+					Keep in mind that depending on the specific use case, a Heap might not be the best data structure to use. Heaps are efficient when we need to extract the maximum/minimum element 
+					frequently and less efficient when we need to access random element.
+					}
+
+				Keep in mind that depending on the specific use case, a BST might not be the best data structure to use. BSTs are efficient when the data is mostly static and less efficient when the data
+				 is frequently updated.
+			
+			4- Stack Cons:
+				Here are some common cons or limitations of a binary search tree (BST) data structure:
+
+					1-	Unbalanced trees: If the tree becomes skewed or unbalanced, the search and insertion/deletion operations may become inefficient, taking O(n) time in the worst case.
+
+					2-	Memory overhead: BSTs require additional memory to store the left and right child pointers for each node, which can be a limitation if memory is a concern.
+
+					3-	Not cache-friendly: The memory layout of a BST is not cache-friendly, which can lead to poor cache performance.
+
+					4-	Not efficient for large data set: If the data is frequently updated and the dataset is large it is not efficient, it is better to use a data structure like Hash table or Trie
+
+					5-	Not good for range queries: BSTs are not good at answering range queries as they are not ordered.
+
+					6-	Traversals are not efficient: In-order traversal can be slow if the tree is unbalanced
+
+					7-	Not efficient for searching: If the tree is unbalanced, the search can be slow, taking O(n) time in the worst case.
+
+					8-	Limited functionality: BSTs have limited functionality compared to other data structures like AVL trees, which are self-balancing.
+
+				Keep in mind that depending on the specific use case, a BST might not be the best data structure to use. BSTs are efficient when the data is mostly static and less efficient when the data 
+				is frequently updated.

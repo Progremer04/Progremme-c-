@@ -1,0 +1,51 @@
+					SINGLE LINKED LIST:
+			1- Introduction:
+				A singly linked list is a linear data structure that consists of a sequence of nodes. Each node contains a value and a reference (pointer) to the next node in the list. The first node is 
+				referred to as the head of the list, and the last node is referred to as the tail. The tail's next reference is typically set to null, indicating the end of the list. Linked lists are 
+				dynamic in nature, meaning that elements can be added or removed from the list at any time. They do not have a fixed size like an array, and the size of the list can change as elements 
+				are added or removed. Linked lists are commonly used in computer science for tasks such as implementing dynamic data structures, memory management, and traversing large data sets.
+			
+			2- Single Linked List Famous Function :
+				addatbegin()		adds an element into the Single Linked List in begin 
+				addatbegin()		adds an element into the Single Linked List in end
+				del()				removes any element from the Single Linked List 
+				size()			returns the number of elements in the Single Linked List
+				show()			Show  all contents	of Single Linked List 
+				reverselist()       	reverse Single Linked List 
+
+			3- Single Linked List  Features:
+				Here are some common features of a singly linked list data structure:
+
+					1-	Dynamic size: Linked lists do not have a fixed size, and the size of the list can change as elements are added or removed.
+
+					2-	Linear ordering: Elements are stored in a linear order, with each element pointing to the next element in the list.
+
+					3-	Efficient insertion and deletion: Elements can be efficiently inserted or deleted from a linked list at any position, as only the relevant pointers need to be updated.
+
+					4-	No need for contiguous memory: Linked lists do not require that elements be stored in contiguous memory locations, which can be an advantage when working with large data sets or 
+					when memory is limited.
+
+					5-	Random access: Linked lists do not provide random access to elements, elements can only be accessed sequentially.
+
+					6-	Can be used to implement other data structures like Stack and Queue
+
+					7-	Can be used for traversing large data sets: Linked lists are commonly used to traverse large data sets because they do not require that all elements be stored in contiguous memory 
+					locations.
+
+					8-	Applications: Singly linked lists are used in a wide range of applications, including memory management, implementing dynamic data structures, traversing large data sets, and more.
+
+			4- Single Linked List Cons:
+				Here are some cons of using a single linked list in data structures:
+
+					1-	Random access is not possible: In a single linked list, you can only traverse the list in a linear fashion, starting from the head. This means that you cannot directly access a 
+					specific element in the middle of the list without traversing through all the elements before it.
+
+					2-	Insertions and deletions are costly: Inserting or deleting an element in the middle of a single linked list requires re-linking the previous and next elements, which can be
+					 time-consuming.
+					
+					3-	Extra memory is required: Each element in a single linked list requires an additional reference to the next element, which takes up extra memory.
+
+					4-	Not efficient for large data set: Single linked list are not efficient for the large data set, it will take a lot of time to search for the data in the list.
+
+					5-	It's difficult to reverse the linked list : As it's a singly linked list and we only have reference to the next node, so it's difficult to reverse the linked list.
+

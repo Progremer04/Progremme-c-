@@ -1,0 +1,74 @@
+_______________________________________________________________________________________________________________________________________________
+
+						STACK:
+			1- Introduction:
+				A stack is a linear data structure that follows a Last In, First Out (LIFO)  
+				  principle. This means that the last element added to the stack will be the 
+				  first one to be removed. It is commonly used in computer science to store 
+				  temporary data or to implement undo/redo functionality in software.
+				  Operations that can be performed on a stack include push (adding an element
+				  to the top of the stack), pop (removing the top element from the stack),
+				  and peek (viewing the top element of the stack without removing it). 
+				  Stacks can be implemented using an array or a linked list.			
+			2- Stack Methods:
+				push()			adds an element into the stack
+				pop()				removes an element from the stack
+				top()				returns the element at the top of the stack
+				size()			returns the number of elements in the stack	
+				empty()			returns true if the stack is empty
+				show()			Show  all contents of stack	
+
+			3- Stack Features:
+				Here are some common features of a stack data structure:
+
+				1-	LIFO (Last In, First Out) principle: The last element added to the stack will be the first one to be removed.
+
+				2-	Push and Pop operations: The stack supports adding an element to the top of the stack (push) and removing the top element from the stack (pop).
+
+				3-	Peek operation (top): The stack allows you to view the top element of the stack without removing it.
+
+				4-	Limit on size: Stack has a limit on the number of elements that it can store, once the limit is reached, it cannot accept any more elements.
+
+				5-	Dynamic size: Stack can grow or shrink in size as elements are added or removed.
+
+				6-	Random access: Stack does not provide random access to elements, elements can only be accessed in LIFO order.
+
+				7-	Can be implemented using an array or a linked list: Stack can be implemented in many ways but the most common implementations are using an array or a linked list.
+
+				8-	Applications: Stacks are used in a wide range of applications, including 
+				memory management, function calls, undo/redo functionality, parsing, and more. 
+
+			4- Stack Cons:
+					Here are some common drawbacks or cons of using a stack data structure:
+
+						1-	Limited Access: Stack only allows access to the top element, 
+						limiting the ability to directly access other elements in the stack.
+
+						2-	Limited Capacity: Stack has a limit on the number of elements it can store, once the limit is reached, it cannot accept any more
+						elements.
+
+						3-	Not suitable for large data sets: Stacks are not suitable for
+						 large data sets as they have a limited capacity and do not provide a
+						 way to directly access elements other than the top element.
+
+						4-	Not efficient for searching: Stacks are not efficient for
+						 searching as they do not provide a way to directly access elements
+						 other than the top element.
+
+						5-	Not efficient for sorting: Stacks are not efficient for sorting as 
+						they do not provide a way to directly access elements other than the 
+						top element.
+
+						6-	Can lead to overflow or underflow: Stack overflow occurs when a program tries to push an element onto a stack that is already full.
+						 Stack underflow occurs when a program tries to pop an element from a 
+						 stack that is already empty.
+
+						7-	Limited functionality: Stacks have a limited set of operations, 
+						mainly push, pop and peek, it is not capable of performing more
+						complex operations like sorting and searching.
+
+					Keep in mind that these cons are generalization and depending on the
+					specific use case, a stack might be the best data structure to use.
+
+___________________________________________________________________________________________________________________________________________________________________________________________
+
